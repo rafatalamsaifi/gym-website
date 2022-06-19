@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/gym1.jpg');
+}
+
+
+/* .header {
+    display: flex;
+    border: 2px solid red;
+} */
+
+.left {
+    /* border: 2px solid red; */
+    /* background-color: tomato; */
+    display: inline-block;
+    position: absolute;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    width: 25%;
+
+}
+
+.left img {
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 100px;
+    filter: brightness(1000%);
+    /* display: block; */
+    width: 80px;
+    /* margin: auto; */
+    /* padding: 20px 0; */
+}
+
+.left div {
+    /* width: 300px; */
+    text-align: right;
+    font-family: Aclonica;
+    position: relative;
+    top: 30px;
+    right: 110px;
+}
+
+.mid {
+    /* background-color: tomato; */
+    /* border: 2px solid green; */
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+    padding: 28px 50px;
+    height: 80px;
+    /* position: relative;
+    top: 0px; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-family: Aclonica;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.right {
+    /* background-color: tomato; */
+    /* border: 2px solid yellow; */
+    width: 25%;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 25px 74px;
+}
+
+.btn {
+    color: white;
+    background-color: tomato;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.container .btn:hover,
+.btn:hover {
+    cursor: pointer;
+    color: rgb(164, 163, 162);
+}
+
+.btn a:hover {
+    color: rgb(164, 163, 162);
+}
+
+
+.container {
+    border: 2px solid white;
+    width: 33%;
+    margin: 185px 85px;
+    padding: 92px 72px;
+    border-radius: 10px;
+}
+
+.form-group input {
+    font-family: Aclonica;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin: 5px auto;
+    padding: 4px 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: Aclonica;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container .btn {
+    font-family: Aclonica;
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 2px solid white;
+}
+
+.footer {
+    border: 2px solid tomato;
+    text-align: center;
+    background-color: tomato;
+    padding: 10px;
+}
